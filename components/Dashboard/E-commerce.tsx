@@ -6,7 +6,7 @@ import CardDataStats from "../CardDataStats";
 
 // without this the component renders on server and throws an error
 import dynamic from "next/dynamic";
-import { VideosPlayer } from "../Video/Video";
+import { VideosPlayer } from "../VideoPlayer/VideoPlayer";
 const MapOne = dynamic(() => import("../Maps/MapOne"), {
   ssr: false,
 });
@@ -23,7 +23,7 @@ const ECommerce: React.FC = () => {
         </h2>
       </div>
 
-      <div className="grid grid-cols-1 gap-2 md:grid-cols-2 md:gap-2 xl:grid-cols-2 2xl:gap-7.5">
+      <div className="grid justify-items-center grid-cols-1 gap-2 md:grid-cols-2 md:gap-2 xl:grid-cols-3 2xl:gap-7.5">
         <VideosPlayer
           title="Primera clase"
           url="https://drive.google.com/file/d/1jRDlYbVlJpJTxe3zPCjhHiusNEF-oc-P/preview"

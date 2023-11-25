@@ -8,18 +8,16 @@ interface VideosProps {
 
 export const VideosPlayer: React.FC<VideosProps> = ({ title, url}) => {
   return (
-    <div className="rounded-sm w-max border border-stroke bg-white py-3 px-3 shadow-default dark:border-strokedark dark:bg-boxdark">
-      <div className="flex rounded-full bg-meta-2 dark:bg-meta-4">
+    <div className="flex flex-col rounded-lg border border-stroke bg-white p-3 shadow-default dark:border-strokedark dark:bg-boxdark">
+      <div className="items-start flex-initial ">
         {/* <ReactPlayer url={url} /> */}
         <iframe
           src={url}
-          width="640"
-          height="480"
         ></iframe>
       </div>
 
-      <div className="mt-4 flex items-end justify-between">
-        <span className={`flex items-center gap-1 text-sm font-medium`}>
+      <div className="flex-1">
+        <span className={`text-2xl font-medium`}>
           {title}
         </span>
       </div>
