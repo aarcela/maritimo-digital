@@ -39,8 +39,16 @@ const Profile = () => {
               Aurelio Fernandez-Concheso
             </h3>
             <p className="font-medium">
-              Abogado en Derecho Marítimo y Aeronáutico. Seguros y Reaseguros,
-              Litigio, Arbitraje y Comercio
+              Aurelio Fernández-Concheso es un abogado venezolano con máster en
+              Derecho Marítimo en la Universidad de Tulane, Nueva Orleans. Ha
+              sido profesor de derecho marítimo a través de su carrera. Ha
+              escrito diversas obras sobre la materia tales como “Régimen
+              Administrativo de la Navegación”, (1993), “Ley Orgánica de los
+              Espacios Acuáticos e Insulares II” (2004) y “Procedimiento
+              Marítimo Venezolano” (2006). Ha sido presidente de la Asociación
+              Venezolana de Derecho Marítimo y fue miembro del Comité Ejecutivo
+              del Comité Marítimo Internacional (2017-2023) y ha ejercido esta
+              materia por más de 30 años
             </p>
             <div className="mx-auto mt-4.5 mb-5.5 grid max-w-94 rounded-md border border-stroke py-2.5 shadow-1 dark:border-strokedark dark:bg-[#37404F]">
               <div className="flex flex-col items-center justify-center px-4 dark:border-strokedark xsm:flex-row">

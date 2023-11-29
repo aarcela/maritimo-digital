@@ -7,6 +7,7 @@ import CardDataStats from "../CardDataStats";
 // without this the component renders on server and throws an error
 import dynamic from "next/dynamic";
 import { VideosPlayer } from "../VideoPlayer/VideoPlayer";
+import Breadcrumb from "../Breadcrumbs/Breadcrumb";
 const MapOne = dynamic(() => import("../Maps/MapOne"), {
   ssr: false,
 });
@@ -14,22 +15,25 @@ const MapOne = dynamic(() => import("../Maps/MapOne"), {
 const ECommerce: React.FC = () => {
   return (
     <>
+      <Breadcrumb pageName="Videos" />
       <div className="flex justify-center py-10 text-center">
-        <h2>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
-          voluptatem tempore commodi accusamus eos debitis vero magnam facilis,
-          nobis ad tempora repudiandae facere nam, eius doloremque quis
-          voluptatum porro! Vel!
-        </h2>
+        <h1>
+          Este curso está dirigido a abogados, estudiantes y otros profesionales
+          del área marítima y su objetivo es que constituya un primer encuentro
+          de cualquier persona interesada en esta área fascinante de la ciencia
+          jurídica y familiarizarse con sus figuras e institutos jurídicos que
+          esta rama del derecho tiene y que no se encuentra en las demás ramas
+          del derecho
+        </h1>
       </div>
 
       <div className="grid justify-items-center grid-cols-1 gap-2 md:grid-cols-2 md:gap-2 xl:grid-cols-3 2xl:gap-7.5">
         <VideosPlayer
-          title="Primera clase"
+          title="Introducción al Derecho Marítimo"
           url="https://drive.google.com/file/d/1jRDlYbVlJpJTxe3zPCjhHiusNEF-oc-P/preview"
         ></VideosPlayer>
         <VideosPlayer
-          title="Segunda clase"
+          title="Historia del Derecho Marítimo"
           url="https://drive.google.com/file/d/1deJDoqZpCJ6Di2pbn-DjVuuUELD1F_3u/preview"
         ></VideosPlayer>
         {/* <CardDataStats title="Total views" total="$3.456K" rate="0.43%" levelUp>
