@@ -17,7 +17,7 @@ export const VideosPlayer: React.FC<VideosProps> = ({ title, url}) => {
       </div>
 
       <div className="flex-1">
-        <span className={`text-2xl font-medium`}>
+        <span className={`text-2xl font-medium font-satoshi`}>
           {title}
         </span>
       </div>
