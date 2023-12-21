@@ -16,25 +16,29 @@ const ECommerce: React.FC = () => {
   return (
     <>
       <Breadcrumb pageName="Videos" />
-      <div className="flex justify-center py-10 text-center">
+      <div className="flex justify-center py-10 text-center font-satoshi">
         <h1>
-          Este curso está dirigido a abogados, estudiantes y otros profesionales
-          del área marítima y su objetivo es que constituya un primer encuentro
-          de cualquier persona interesada en esta área fascinante de la ciencia
-          jurídica y familiarizarse con sus figuras e institutos jurídicos que
-          esta rama del derecho tiene y que no se encuentra en las demás ramas
-          del derecho
+          Este curso de Derecho Marítimo está dirigido a abogados, estudiantes y
+          otros profesionales del área. Su objetivo es que constituya un primer
+          encuentro de cualquier persona interesada en esta rama fascinante de
+          la ciencia jurídica, para familiarizarse con sus figuras e
+          instituciones jurídicos muchas de las cuales no se encuentran en otras
+          ramas del derecho
         </h1>
       </div>
 
       <div className="grid justify-items-center grid-cols-1 gap-2 md:grid-cols-2 md:gap-2 xl:grid-cols-3 2xl:gap-7.5">
         <VideosPlayer
           title="Introducción al Derecho Marítimo"
-          url="https://drive.google.com/file/d/1jRDlYbVlJpJTxe3zPCjhHiusNEF-oc-P/preview"
+          url="https://www.youtube.com/embed/dDualI8NMi4?si=K61g76Cf8xMHMeCO"
         ></VideosPlayer>
         <VideosPlayer
           title="Historia del Derecho Marítimo"
-          url="https://drive.google.com/file/d/1deJDoqZpCJ6Di2pbn-DjVuuUELD1F_3u/preview"
+          url="https://www.youtube.com/embed/QQI640YOckM?si=tQdutQqjtqyo5XC7"
+        ></VideosPlayer>
+        <VideosPlayer
+          title="Sujetos del Derecho Marítimo"
+          url="https://www.youtube.com/embed/x0Ct-S0ghU8?si=CUxOIgwtzwCTDcx_"
         ></VideosPlayer>
         {/* <CardDataStats title="Total views" total="$3.456K" rate="0.43%" levelUp>
           <svg
