@@ -18,12 +18,9 @@ const ECommerce: React.FC = () => {
       <Breadcrumb pageName="Videos" />
       <div className="flex justify-center py-10 text-center font-satoshi">
         <h1>
-          Este curso de Derecho Marítimo está dirigido a abogados, estudiantes y
-          otros profesionales del área. Su objetivo es que constituya un primer
-          encuentro de cualquier persona interesada en esta rama fascinante de
-          la ciencia jurídica, para familiarizarse con sus figuras e
-          instituciones jurídicos muchas de las cuales no se encuentran en otras
-          ramas del derecho
+          Este curso está dirigido a estudiantes de derecho, abogados y otros
+          profesionales interesados en la industria maritima, portuaria y del
+          transporte, como un primer encuentro con el Derecho Marítimo.
         </h1>
       </div>
 

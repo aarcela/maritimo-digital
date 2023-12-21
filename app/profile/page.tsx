@@ -24,7 +24,7 @@ const Profile = () => {
           />
         </div>
         <div className="px-4 pb-6 text-center lg:pb-8 xl:pb-11.5">
-          <div className="relative z-30 mx-auto -mt-22 h-30 w-full max-w-30  p-1 sm:h-44 sm:max-w-44 sm:p-3">
+          <div className="relative z-30 mx-auto -mt-22 h-30 w-flil max-w-30  p-1 sm:h-44 sm:max-w-44 sm:p-3">
             <div className="relative ">
               <Image
                 src={"/images/user/aurelio.webp"}
@@ -36,21 +36,40 @@ const Profile = () => {
           </div>
           <div className="mt-10">
             <h3 className="mb-1.5 text-2xl font-semibold text-black dark:text-white">
-              Aurelio Fernandez-Concheso
+              Acerca de
             </h3>
-            <p className="font-medium">
-              Aurelio Fernández-Concheso es un abogado venezolano graduado de la
-              Universidad Católica Andrés Bello y con máster en derecho marítimo
-              de la Universidad de Tulane, Nueva Orleans. Ha sido profesor de
-              derecho marítimo a través de su carrera. Ha escrito diversas obras
-              sobre la materia tales como “Régimen Administrativo de la
-              Navegación”, (1993), “Ley Orgánica de los Espacios Acuáticos e
-              Insulares II” (2004) y “Procedimiento Marítimo Venezolano” (2006).
-              Ha sido presidente de la Asociación Venezolana de Derecho Marítimo
-              y fue miembro del Comité Ejecutivo del Comité Marítimo
-              Internacional (2017-2023) y ha ejercido esta materia por más de 30
-              años
-            </p>
+            <div className="pr-5 pl-5">
+            <p className="font-medium text-justify">
+              Se corresponde a lo que era el curso de Derecho Maritimo General
+              I, que dicte durante años en la Universidad Marítima del Caribe.
+              Esta dividido en 15 clases y un total de cerca de 10 horas, que
+              tocan:
+              </p>
+              <ul className="text-justify">
+                <li>- La noción y concepto de Derecho Maritimo</li>
+                <li>- Su historia y desarrollo por mas de 3.000 años</li>
+                <li>- Los sujetos (armador, naviero, responsabilidad, limitación de
+                  responsabilidad, gente de mar, agentes, embarcadores,
+                  consignatarios, entes del sector)
+                </li>
+                <li>- El buque (regimen, abanderamiento, privilegios, hipotecas)
+                </li>
+                <li>- Los contratos (transporte de personas, transporte de
+                  mercancías, fletamentos, remolque, construcción de buques)
+                </li>
+                <li>- Los riesgos de la navegación (salvamento, colisiones,
+                  abordajes)
+                </li>
+                <li>- La contaminación del mar por petróleo</li>
+                <li>- El procedimiento marítimo (embargo, arbitrajes, tribunales
+                  marítimos). Los invito a encontrarse con esta fascinante rama
+                  del Derecho
+                </li>
+                Al climinarlo tendrán una noción clara y general de ella que les
+                servirá para profundizar y construir sobre lo aprendido en estas
+                15 clases.
+              </ul>
+              </div>
             <div className="mx-auto mt-4.5 mb-5.5 grid max-w-94 rounded-md border border-stroke py-2.5 shadow-1 dark:border-strokedark dark:bg-[#37404F]">
               <div className="flex flex-col items-center justify-center px-4 dark:border-strokedark xsm:flex-row">
                 <a href="https://aureliofernandezconcheso.com/">
@@ -64,17 +83,20 @@ const Profile = () => {
 
             <div className="mx-auto max-w-180">
               <h4 className="font-semibold text-black dark:text-white">
-                Acerca de
+                Aurelio Fernandez-Concheso
               </h4>
               <p className="mt-4.5">
-                Egresado de la Universidad Católica Andrés Bello, Caracas.
-                Magíster en Derecho Marítimo (LL.M. in Admiralty) de la
-                Universidad de Tulane. Miembro de Clyde & Co desde 1992. Socio
-                de su oficina venezolana desde 1996. Ex Presidente de la
-                Asociación Venezolana de Derecho Marítimo. Ex-Secretario General
-                del Instituto Iberoamericano de Derecho Marítimo. Miembro
-                Ejecutivo del Comité Marítimo Internacional (CMI) 2017-2023.
-                Profesor Titular de Postgrado de Derecho Marítimo.
+                Aurelio Fernández-Concheso es un abogado venezolano graduado de
+                la Universidad Católica Andrés Bello y con máster en derecho
+                marítimo de la Universidad de Tliane, Nueva Orleans. Ha sido
+                profesor de derecho marítimo a través de su carrera. Ha escrito
+                diversas obras sobre la materia tales como “Régimen
+                Administrativo de la Navegación”, (1993), “Ley Orgánica de los
+                Espacios Acuáticos e Insliares II” (2004) y “Procedimiento
+                Marítimo Venezolano” (2006). Ha sido presidente de la Asociación
+                Venezolana de Derecho Marítimo y fue miembro del Comité
+                Ejecutivo del Comité Marítimo Internacional (2017-2023) y ha
+                ejercido esta materia por más de 30 años
               </p>
             </div>
 
@@ -159,6 +181,19 @@ const Profile = () => {
                         />
                       </clipPath>
                     </defs>
+                  </svg>
+                </a>
+                <a href="https://open.spotify.com/show/0wSaeVQWmJUDwAJAUJLhrR?si=d642674503584055">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    className="bi bi-spotify"
+                    viewBox="0 0 16 16"
+                  >
+                    {" "}
+                    <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.669 11.538a.498.498 0 0 1-.686.165c-1.879-1.147-4.243-1.407-7.028-.77a.499.499 0 0 1-.222-.973c3.048-.696 5.662-.397 7.77.892a.5.5 0 0 1 .166.686zm.979-2.178a.624.624 0 0 1-.858.205c-2.15-1.321-5.428-1.704-7.972-.932a.625.625 0 0 1-.362-1.194c2.905-.881 6.517-.454 8.986 1.063a.624.624 0 0 1 .206.858zm.084-2.268C10.154 5.56 5.9 5.419 3.438 6.166a.748.748 0 1 1-.434-1.432c2.825-.857 7.523-.692 10.492 1.07a.747.747 0 1 1-.764 1.288z" />{" "}
                   </svg>
                 </a>
               </div>
