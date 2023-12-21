@@ -39,7 +39,7 @@ const Profile = () => {
               Aurelio Fernandez-Concheso
             </h3>
             <p className="font-medium">
-              urelio Fernández-Concheso es un abogado venezolano graduado de la
+              Aurelio Fernández-Concheso es un abogado venezolano graduado de la
               Universidad Católica Andrés Bello y con máster en derecho marítimo
               de la Universidad de Tulane, Nueva Orleans. Ha sido profesor de
               derecho marítimo a través de su carrera. Ha escrito diversas obras

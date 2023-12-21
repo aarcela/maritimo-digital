@@ -3,12 +3,16 @@ import Image from "next/image";
 
 const aditionalMaterial: any[] = [
   {
-    link: "/slides/clase1.png",
+    link: "/slides/Clase1.pdf",
     name: "Clase 1",
   },
   {
-    logo: "/slides/clase2.pdf",
+    logo: "/slides/Clase2.pdf",
     name: "Clase 2",
+  },
+  {
+    logo: "/slides/Clase3.pdf",
+    name: "Clase 3",
   },
 ];
 
