@@ -30,7 +30,7 @@ const ECommerce: React.FC = () => {
       <div className="grid justify-items-center grid-cols-1 gap-2 md:grid-cols-2 md:gap-2 xl:grid-cols-3 2xl:gap-7.5">
         <VideosPlayer
           title="Introducción al Derecho Marítimo"
-          url="https://www.youtube.com/embed/dDualI8NMi4?si=K61g76Cf8xMHMeCO"
+          url="https://www.youtube.com/embed/x0Ct-S0ghU8?si=CUxOIgwtzwCTDcx_"
         ></VideosPlayer>
         <VideosPlayer
           title="Historia del Derecho Marítimo"
@@ -38,7 +38,7 @@ const ECommerce: React.FC = () => {
         ></VideosPlayer>
         <VideosPlayer
           title="Sujetos del Derecho Marítimo"
-          url="https://www.youtube.com/embed/x0Ct-S0ghU8?si=CUxOIgwtzwCTDcx_"
+          url="https://www.youtube.com/embed/dDualI8NMi4?si=K61g76Cf8xMHMeCO"
         ></VideosPlayer>
         {/* <CardDataStats title="Total views" total="$3.456K" rate="0.43%" levelUp>
           <svg
