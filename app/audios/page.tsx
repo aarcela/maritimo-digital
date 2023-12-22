@@ -4,11 +4,11 @@ const audioMaterial: any[] = [
     name: "Clase 1",
   },
   {
-    logo: "https://drive.google.com/file/d/1dKxRtzcZMpTlIwCI25D0S3dGUgEmam15/view",
+    link: "https://drive.google.com/file/d/1dKxRtzcZMpTlIwCI25D0S3dGUgEmam15/view",
     name: "Clase 2",
   },
   {
-    logo: "https://drive.google.com/file/d/1VTITBzi2RgZHM-GgIi-ot5WlJg_YMTY8/view",
+    link: "https://drive.google.com/file/d/1VTITBzi2RgZHM-GgIi-ot5WlJg_YMTY8/view",
     name: "Clase 3",
   },
 ];

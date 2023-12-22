@@ -7,11 +7,11 @@ const aditionalMaterial: any[] = [
     name: "Clase 1",
   },
   {
-    logo: "/slides/Clase2.pdf",
+    link: "/slides/Clase2.pdf",
     name: "Clase 2",
   },
   {
-    logo: "/slides/Clase3.pdf",
+    link: "/slides/Clase3.pdf",
     name: "Clase 3",
   },
 ];

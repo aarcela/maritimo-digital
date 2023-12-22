@@ -12,7 +12,7 @@ export const VideosPlayer: React.FC<VideosProps> = ({ title, url}) => {
       <div className="items-start flex-initial ">
         {/* <ReactPlayer url={url} /> */}
         <iframe
-          src={url}
+          src={url} allowFullScreen
         ></iframe>
       </div>
 

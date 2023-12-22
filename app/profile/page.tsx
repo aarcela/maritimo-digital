@@ -36,40 +36,23 @@ const Profile = () => {
           </div>
           <div className="mt-10">
             <h3 className="mb-1.5 text-2xl font-semibold text-black dark:text-white">
-              Acerca de
+              Aurelio Fernandez-Concheso
             </h3>
             <div className="pr-5 pl-5">
-            <p className="font-medium text-justify">
-              Se corresponde a lo que era el curso de Derecho Maritimo General
-              I, que dicte durante años en la Universidad Marítima del Caribe.
-              Esta dividido en 15 clases y un total de cerca de 10 horas, que
-              tocan:
+              <p className="font-medium text-justify">
+                Aurelio Fernández-Concheso es un abogado venezolano graduado de
+                la Universidad Católica Andrés Bello y con máster en derecho
+                marítimo de la Universidad de Tliane, Nueva Orleans. Ha sido
+                profesor de derecho marítimo a través de su carrera. Ha escrito
+                diversas obras sobre la materia tales como “Régimen
+                Administrativo de la Navegación”, (1993), “Ley Orgánica de los
+                Espacios Acuáticos e Insliares II” (2004) y “Procedimiento
+                Marítimo Venezolano” (2006). Ha sido presidente de la Asociación
+                Venezolana de Derecho Marítimo y fue miembro del Comité
+                Ejecutivo del Comité Marítimo Internacional (2017-2023) y ha
+                ejercido esta materia por más de 30 años
               </p>
-              <ul className="text-justify">
-                <li>- La noción y concepto de Derecho Maritimo</li>
-                <li>- Su historia y desarrollo por mas de 3.000 años</li>
-                <li>- Los sujetos (armador, naviero, responsabilidad, limitación de
-                  responsabilidad, gente de mar, agentes, embarcadores,
-                  consignatarios, entes del sector)
-                </li>
-                <li>- El buque (regimen, abanderamiento, privilegios, hipotecas)
-                </li>
-                <li>- Los contratos (transporte de personas, transporte de
-                  mercancías, fletamentos, remolque, construcción de buques)
-                </li>
-                <li>- Los riesgos de la navegación (salvamento, colisiones,
-                  abordajes)
-                </li>
-                <li>- La contaminación del mar por petróleo</li>
-                <li>- El procedimiento marítimo (embargo, arbitrajes, tribunales
-                  marítimos). Los invito a encontrarse con esta fascinante rama
-                  del Derecho
-                </li>
-                Al climinarlo tendrán una noción clara y general de ella que les
-                servirá para profundizar y construir sobre lo aprendido en estas
-                15 clases.
-              </ul>
-              </div>
+            </div>
             <div className="mx-auto mt-4.5 mb-5.5 grid max-w-94 rounded-md border border-stroke py-2.5 shadow-1 dark:border-strokedark dark:bg-[#37404F]">
               <div className="flex flex-col items-center justify-center px-4 dark:border-strokedark xsm:flex-row">
                 <a href="https://aureliofernandezconcheso.com/">
@@ -83,21 +66,43 @@ const Profile = () => {
 
             <div className="mx-auto max-w-180">
               <h4 className="font-semibold text-black dark:text-white">
-                Aurelio Fernandez-Concheso
+                Acerca de
               </h4>
               <p className="mt-4.5">
-                Aurelio Fernández-Concheso es un abogado venezolano graduado de
-                la Universidad Católica Andrés Bello y con máster en derecho
-                marítimo de la Universidad de Tliane, Nueva Orleans. Ha sido
-                profesor de derecho marítimo a través de su carrera. Ha escrito
-                diversas obras sobre la materia tales como “Régimen
-                Administrativo de la Navegación”, (1993), “Ley Orgánica de los
-                Espacios Acuáticos e Insliares II” (2004) y “Procedimiento
-                Marítimo Venezolano” (2006). Ha sido presidente de la Asociación
-                Venezolana de Derecho Marítimo y fue miembro del Comité
-                Ejecutivo del Comité Marítimo Internacional (2017-2023) y ha
-                ejercido esta materia por más de 30 años
+                Se corresponde a lo que era el curso de Derecho Maritimo General
+                I, que dicte durante años en la Universidad Marítima del Caribe.
+                Esta dividido en 15 clases y un total de cerca de 10 horas, que
+                tocan:
               </p>
+              <ul className="text-justify">
+                <li>- La noción y concepto de Derecho Maritimo</li>
+                <li>- Su historia y desarrollo por mas de 3.000 años</li>
+                <li>
+                  - Los sujetos (armador, naviero, responsabilidad, limitación
+                  de responsabilidad, gente de mar, agentes, embarcadores,
+                  consignatarios, entes del sector)
+                </li>
+                <li>
+                  - El buque (regimen, abanderamiento, privilegios, hipotecas)
+                </li>
+                <li>
+                  - Los contratos (transporte de personas, transporte de
+                  mercancías, fletamentos, remolque, construcción de buques)
+                </li>
+                <li>
+                  - Los riesgos de la navegación (salvamento, colisiones,
+                  abordajes)
+                </li>
+                <li>- La contaminación del mar por petróleo</li>
+                <li>
+                  - El procedimiento marítimo (embargo, arbitrajes, tribunales
+                  marítimos). Los invito a encontrarse con esta fascinante rama
+                  del Derecho
+                </li>
+                Al climinarlo tendrán una noción clara y general de ella que les
+                servirá para profundizar y construir sobre lo aprendido en estas
+                15 clases.
+              </ul>
             </div>
 
             <div className="mt-6.5">
