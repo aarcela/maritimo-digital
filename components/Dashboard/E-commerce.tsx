@@ -15,7 +15,7 @@ const MapOne = dynamic(() => import("../Maps/MapOne"), {
 const ECommerce: React.FC = () => {
   return (
     <>
-      <Breadcrumb pageName="Videos" />
+      <Breadcrumb pageName="Curso de Derecho Marítimo por Aurelio Fernández-Concheso (diciembre 2022 - diciembre 2023)" />
       <div className="flex justify-center py-10 text-center font-satoshi">
         <h1>
           Este curso está dirigido a estudiantes de derecho, abogados y otros
