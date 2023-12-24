@@ -39,7 +39,7 @@ const Profile = () => {
               Aurelio Fernandez-Concheso
             </h3>
             <div className="pr-5 pl-5">
-              <p className="font-medium text-justify">
+              <p className="text-justify">
                 Aurelio Fernández-Concheso es un abogado venezolano graduado de
                 la Universidad Católica Andrés Bello y con máster en derecho
                 marítimo de la Universidad de Tliane, Nueva Orleans. Ha sido
@@ -68,13 +68,17 @@ const Profile = () => {
               <h4 className="font-semibold text-black dark:text-white">
                 Acerca de
               </h4>
+            </div>
+            <div className="pr-5 pl-5 text-justify">
               <p className="mt-4.5">
                 Se corresponde a lo que era el curso de Derecho Maritimo General
                 I, que dicte durante años en la Universidad Marítima del Caribe.
+              </p>
+              <p className="mt-4.5">
                 Esta dividido en 15 clases y un total de cerca de 10 horas, que
                 tocan:
               </p>
-              <ul className="text-justify">
+              <ul className="text-justify pl-7 mt-4.5">
                 <li>- La noción y concepto de Derecho Maritimo</li>
                 <li>- Su historia y desarrollo por mas de 3.000 años</li>
                 <li>
@@ -96,13 +100,15 @@ const Profile = () => {
                 <li>- La contaminación del mar por petróleo</li>
                 <li>
                   - El procedimiento marítimo (embargo, arbitrajes, tribunales
-                  marítimos). Los invito a encontrarse con esta fascinante rama
-                  del Derecho
+                  marítimos).
                 </li>
-                Al climinarlo tendrán una noción clara y general de ella que les
+              </ul>
+              <p className="mt-4.5">
+                Los invito a encontrarse con esta fascinante rama del Derecho.
+                Al culminarlo tendrán una noción clara y general de ella que les
                 servirá para profundizar y construir sobre lo aprendido en estas
                 15 clases.
-              </ul>
+              </p>
             </div>
 
             <div className="mt-6.5">
