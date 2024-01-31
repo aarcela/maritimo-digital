@@ -19,33 +19,23 @@ const aditionalMaterial: any[] = [
 const TableOne = () => {
   return (
     <div className="rounded-sm border border-stroke bg-white px-5 pt-6 pb-2.5 shadow-default dark:border-strokedark dark:bg-boxdark sm:px-7.5 xl:pb-1">
-      <div className="flex flex-col">
-        <div className="grid rounded-sm bg-gray-2 dark:bg-meta-4">
-          <div className="p-2.5 xl:p-5">
-            <h5 className="text-sm font-medium uppercase xsm:text-base">
-              Láminas de la clase
-            </h5>
-          </div>
-        </div>
+      <div className="p-2.5 xl:p-5">
+        <h5 className="text-sm font-medium uppercase xsm:text-base">
+          Láminas de la clase
+        </h5>
+      </div>
+      <div className="flex flex-row gap-2">
+        <div className="grid rounded-sm bg-gray-2 dark:bg-meta-4"></div>
 
         {aditionalMaterial.map((materialData, key) => (
-          <div
-            className={`grid sm:grid-cols-5 ${
-              key === materialData.length - 1
-                ? ""
-                : "border-b border-stroke dark:border-strokedark"
-            }`}
-            key={key}
-          >
-            <div className="flex items-center gap-3 p-2.5 xl:p-5">
-              <a
-                href={materialData.link}
-                className="text-black dark:text-white sm:block"
-              >
-                <h5>{materialData.name}</h5>
-              </a>
+          <a key={key} href={materialData.link}>
+            <div className="w-25 text-black-2 m-4 rounded border p-4 text-center">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                <path d="M0 448c0 35.3 28.7 64 64 64H224V384c0-17.7 14.3-32 32-32H384V64c0-35.3-28.7-64-64-64H64C28.7 0 0 28.7 0 64V448zM171.3 75.3l-96 96c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6l96-96c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6zm96 32l-160 160c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6l160-160c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6zM384 384H256V512L384 384z" />
+              </svg>
+              {materialData.name}
             </div>
-          </div>
+          </a>
         ))}
       </div>
     </div>

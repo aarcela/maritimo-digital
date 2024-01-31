@@ -24,7 +24,7 @@ const ECommerce: React.FC = () => {
         </h1>
       </div>
 
-      <div className="grid justify-items-center grid-cols-1 gap-2 md:grid-cols-2 md:gap-2 xl:grid-cols-3 2xl:gap-7.5">
+      <div className="flex flex-wrap gap-2 justify-center md:justify-normal">
         <VideosPlayer
           title="Introducción al Derecho Marítimo"
           url="https://www.youtube.com/embed/x0Ct-S0ghU8?si=CUxOIgwtzwCTDcx_"

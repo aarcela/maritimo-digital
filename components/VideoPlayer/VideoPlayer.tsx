@@ -9,14 +9,12 @@ interface VideosProps {
 export const VideosPlayer: React.FC<VideosProps> = ({ title, url}) => {
   return (
     <div className="flex flex-col rounded-lg border border-stroke bg-white p-3 shadow-default dark:border-strokedark dark:bg-boxdark">
-      <div className="items-start flex-initial ">
         {/* <ReactPlayer url={url} /> */}
         <iframe
+        className="w-100"
           src={url} allowFullScreen
         ></iframe>
-      </div>
-
-      <div className="flex-1">
+      <div>
         <span className={`text-2xl font-medium font-satoshi`}>
           {title}
         </span>
