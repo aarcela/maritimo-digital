@@ -37,6 +37,18 @@ const ECommerce: React.FC = () => {
           title="Sujetos del Derecho Marítimo"
           url="https://www.youtube.com/embed/dDualI8NMi4?si=K61g76Cf8xMHMeCO"
         ></VideosPlayer>
+        <VideosPlayer
+          title="Objetos del derecho marítimo"
+          url="https://www.youtube.com/embed/ROdC6mAs4So?si=chnKtCpfPtZwWAKL"
+        ></VideosPlayer>
+        <VideosPlayer
+          title="Privilegios e Hipotecas"
+          url="https://www.youtube.com/embed/Tp8mXVdiSX4?si=aJ7ti4cYa4o46KJ5"
+        ></VideosPlayer>
+        <VideosPlayer
+          title="Contrato de Fletamento"
+          url="https://www.youtube.com/embed/dqPJqUpgJzA?si=WjKySsMoHcRiDjE6"
+        ></VideosPlayer>
         {/* <CardDataStats title="Total views" total="$3.456K" rate="0.43%" levelUp>
           <svg
             className="fill-primary dark:fill-white"

@@ -8,21 +8,29 @@ const audioMaterial: any[] = [
     name: "Clase 2",
   },
   {
-    link: "https://drive.google.com/file/d/1VTITBzi2RgZHM-GgIi-ot5WlJg_YMTY8/view",
-    name: "Clase 3",
+    link: "https://drive.google.com/file/d/1orGqC4O1wgLxBeFyPXGU-Te8LBtcYcQY/view",
+    name: "Clase 4",
+  },
+  {
+    link: "https://drive.google.com/file/d/1ujvovKHcSxoYr1EjCKWj2iuq0aeSleSm/view",
+    name: "Clase 5",
+  },
+  {
+    link: "https://drive.google.com/file/d/1oWfAZmhHd1YnumQIZNAACpn-OliSbwau/view",
+    name: "Clase 6",
   },
 ];
 
 export default function Audios() {
   return (
     <div className="rounded-sm border border-stroke bg-white px-5 pt-6 pb-2.5 shadow-default dark:border-strokedark dark:bg-boxdark sm:px-7.5 xl:pb-1">
-        <div className="grid rounded-sm bg-gray-2 dark:bg-meta-4">
-          <div className="p-2.5 xl:p-5">
-            <h5 className="text-sm font-medium uppercase xsm:text-base">
-              Audios
-            </h5>
-          </div>
+      <div className="grid rounded-sm bg-gray-2 dark:bg-meta-4">
+        <div className="p-2.5 xl:p-5">
+          <h5 className="text-sm font-medium uppercase xsm:text-base">
+            Audios
+          </h5>
         </div>
+      </div>
       <div className="flex flex-row gap-2">
         {audioMaterial.map((materialData, key) => (
           <a key={key} href={materialData.link}>
