@@ -42,7 +42,7 @@ const Profile = () => {
               <p className="text-justify">
                 Aurelio Fernández-Concheso es un abogado venezolano graduado de
                 la Universidad Católica Andrés Bello y con máster en derecho
-                marítimo de la Universidad de Tliane, Nueva Orleans. Ha sido
+                marítimo de la Universidad de Tulane, Nueva Orleans. Ha sido
                 profesor de derecho marítimo a través de su carrera. Ha escrito
                 diversas obras sobre la materia tales como “Régimen
                 Administrativo de la Navegación”, (1993), “Ley Orgánica de los
@@ -75,8 +75,8 @@ const Profile = () => {
                 I, que dicte durante años en la Universidad Marítima del Caribe.
               </p>
               <p className="mt-4.5">
-                Esta dividido en 15 clases y un total de cerca de 10 horas, que
-                tocan:
+                Esta dividido en 15 clases y un total de cerca de 10 horas,
+                grabadas entre 2023 y 2024, que tocan:
               </p>
               <ul className="text-justify pl-7 mt-4.5">
                 <li>- La noción y concepto de Derecho Maritimo</li>
