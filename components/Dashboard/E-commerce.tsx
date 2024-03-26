@@ -30,8 +30,15 @@ const ECommerce: React.FC = () => {
         <VideosPlayer title="Objetos del derecho marítimo" url="https://www.youtube.com/embed/ROdC6mAs4So?si=chnKtCpfPtZwWAKL"></VideosPlayer>
         <VideosPlayer title="Privilegios e Hipotecas" url="https://www.youtube.com/embed/Tp8mXVdiSX4?si=aJ7ti4cYa4o46KJ5"></VideosPlayer>
         <VideosPlayer title="Contrato de Fletamento" url="https://www.youtube.com/embed/dqPJqUpgJzA?si=WjKySsMoHcRiDjE6"></VideosPlayer>
-        <VideosPlayer title="Contratos de Transporte de Mercancias por Agua - Clase 7 / Parte 1" url="https://youtu.be/C3HujLm3M2k?si=ygQ3t_ubshx-JDuw"></VideosPlayer>
-        <VideosPlayer title="Contratos de Transporte de Mercancias por Agua - Clase 7 / Parte 2" url="https://youtu.be/8W0H13eYt44?si=yLhKSjYNt5avhq4T"></VideosPlayer>
+        <VideosPlayer
+          title="Contratos de Transporte de Mercancias por Agua - Clase 7 / Parte 1"
+          url="https://www.youtube.com/embed/8W0H13eYt44?si=FZsBF_jkZ41vRrlF"
+        ></VideosPlayer>
+        <VideosPlayer
+          title="Contratos de Transporte de Mercancias por Agua - Clase 7 / Parte 2"
+          url="https://www.youtube.com/embed/8W0H13eYt44?si=tqdP_ylZW0fqGM6L"
+        ></VideosPlayer>
+
         {/* <CardDataStats title="Total views" total="$3.456K" rate="0.43%" levelUp>
           <svg
             className="fill-primary dark:fill-white"
