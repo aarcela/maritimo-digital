@@ -19,6 +19,14 @@ const audioMaterial: any[] = [
     link: "https://drive.google.com/file/d/1oWfAZmhHd1YnumQIZNAACpn-OliSbwau/view",
     name: "Clase 6",
   },
+  {
+    link: "https://drive.google.com/file/d/1cdwuQkHtDAU_ko2U3OO1Jhd0stIiC2Co/view",
+    name: "Clase 7.1",
+  },
+  {
+    link: "https://drive.google.com/file/d/1WfPIJLatPgyaYm6i09Eql7omvO9OdPdd/view",
+    name: "Clase 7.2",
+  },
 ];
 
 export default function Audios() {
@@ -26,9 +34,7 @@ export default function Audios() {
     <div className="rounded-sm border border-stroke bg-white px-5 pt-6 pb-2.5 shadow-default dark:border-strokedark dark:bg-boxdark sm:px-7.5 xl:pb-1">
       <div className="grid rounded-sm bg-gray-2 dark:bg-meta-4">
         <div className="p-2.5 xl:p-5">
-          <h5 className="text-sm font-medium uppercase xsm:text-base">
-            Audios
-          </h5>
+          <h5 className="text-sm font-medium uppercase xsm:text-base">Audios</h5>
         </div>
       </div>
       <div className="flex flex-row gap-2">
